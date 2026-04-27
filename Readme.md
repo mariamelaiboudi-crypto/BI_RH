@@ -1,12 +1,11 @@
-import os
-
 # Contenu du README.md structuré et professionnel
-readme_content = """# 📊 Mini-Projet Business Intelligence (BI)
+
+## Projet Business Intelligence (BI)
 
 ## 🎯 Présentation du Projet
 Ce dépôt contient les travaux réalisés dans le cadre du module **Business Intelligence**. L'objectif est de mettre en place une solution décisionnelle complète, de la collecte des données brutes jusqu'à la création d'un tableau de bord interactif pour l'aide à la décision.
 
-**Sujet choisi :** `[Ex: Analyse des Ventes E-Commerce / Performance RH / Logistique]`
+**Sujet choisi :** `[Ex:.................]`
 
 ---
 
@@ -29,9 +28,9 @@ Ce dépôt contient les travaux réalisés dans le cadre du module **Business In
 
 ### 1. Analyse des Besoins & KPIs
 Nous avons défini les indicateurs clés de performance (KPIs) suivants :
-* **[KPI 1]** : [Description brève]
-* **[KPI 2]** : [Description brève]
-* **[KPI 3]** : [Description brève]
+* **[KPI 1]** : 
+* **[KPI 2]** : 
+* **[KPI 3]** :
 
 ### 2. Collecte et Préparation des Données
 * **Source :** [Lien vers le dataset Kaggle ou description de la source]
