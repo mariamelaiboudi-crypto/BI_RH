@@ -11,9 +11,9 @@ Ce dépôt contient les travaux réalisés dans le cadre du module **Business In
 ---
 
 ## 👥 Équipe de Projet
-* **[ZAKARIAE EL HADDOUCHI]** - *Développement ETL & Modélisation*
-* **[OUSSAMA Lebyed]** - *Analyse de Données & KPIs*
-* **[Oualid Boutayeb]** - *Visualisation & Dashboard*
+* **ZAKARIAE EL HADDOUCHI** - *Développement ETL & Modélisation*
+* **OUSSAMA Lebyed** - *Analyse de Données & KPIs*
+* **Oualid Boutayeb** - *Visualisation & Dashboard*
 
 ---
 
