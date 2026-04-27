@@ -1,0 +1,12 @@
+
+# Excel and temporary files
+~$*.xlsx
+*.tmp
+
+# Power BI backups
+*.pbit
+*.pbip
+
+# OS files
+.DS_Store
+Thumbs.db
