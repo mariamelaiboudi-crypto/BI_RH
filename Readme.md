@@ -1,5 +1,3 @@
-# Contenu du README.md structuré et professionnel
-
 ## Projet Business Intelligence (BI)
 
 ## 🎯 Présentation du Projet
