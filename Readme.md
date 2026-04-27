@@ -39,8 +39,8 @@ Nous avons défini les indicateurs clés de performance (KPIs) suivants :
 
 ### 3. Modélisation (Schéma Décisionnel)
 Conception d'un **Schéma en Étoile (Star Schema)** comprenant :
-* **Table de Fait :** `Fact_[Nom]`
-* **Tables de Dimensions :** `Dim_Temps`, `Dim_Produits`, `Dim_Geographie`, etc.
+* **Table de Fait :** ............`
+* **Tables de Dimensions :** `...........`, `...............`, etc.
 
 ### 4. Dashboarding & Visualisation
 Création d'un rapport interactif permettant de répondre aux questions stratégiques de l'entreprise.
