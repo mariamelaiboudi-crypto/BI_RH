@@ -1,9 +1,9 @@
-# 📊 Projet Business Intelligence (BI)
+# 📊 Projet Business Intelligence (BI) - HR Analytics
 
 ## 🎯 Présentation du Projet
-Ce dépôt contient les travaux réalisés dans le cadre du module **Business Intelligence**. L'objectif est de mettre en place une solution décisionnelle complète, de la collecte des données brutes jusqu'à la création d'un tableau de bord interactif pour l'aide à la décision.
+Ce dépôt contient une solution BI complète pour l'analyse des ressources humaines (RH). L'objectif est d'analyser l'attrition des employés, leurs performances et la structure salariale afin de fournir des informations exploitables pour la gestion des RH.
 
-**Sujet choisi :** `[Insérer le nom de votre sujet ici]`
+**Sujet :** HR Analytics - Employee Attrition & Performance
 
 ---
 
@@ -16,8 +16,8 @@ Ce dépôt contient les travaux réalisés dans le cadre du module **Business In
 ---
 
 ## 🛠️ Stack Technique
-* **Extraction & Transformation (ETL) :** [Ex: Power Query / Python Pandas]
-* **Stockage/Modélisation :** [Ex: SQL Server / PostgreSQL / MySQL]
+* **Extraction & Transformation (ETL) :** Python (Pandas)
+* **Stockage/Modélisation :** SQL (Star Schema)
 * **Visualisation :** Power BI
 * **Gestion de version :** Git & GitHub
 
@@ -27,30 +27,42 @@ Ce dépôt contient les travaux réalisés dans le cadre du module **Business In
 
 ### 1. Analyse des Besoins & KPIs
 Nous avons défini les indicateurs clés de performance (KPIs) suivants :
-* **[KPI 1]** : *Ex: Chiffre d'affaires mensuel*
-* **[KPI 2]** : *Ex: Taux de croissance des ventes*
-* **[KPI 3]** : *Ex: Analyse géographique des clients*
+* **Taux d'Attrition** : Pourcentage d'employés ayant quitté l'entreprise.
+* **Salaire Moyen par Département** : Analyse de la répartition des coûts salariaux.
+* **Performance vs Ancienneté** : Corrélation entre la note de performance et le temps passé dans l'entreprise.
 
 ### 2. Collecte et Préparation des Données
-* **Source :** [Lien vers le dataset ou description de la source]
-* **Nettoyage :** Traitement via Python/Power Query (Gestion des valeurs manquantes, suppression des doublons et formatage).
+* **Source :** Données synthétiques générées via `Scripts/Python/data_generator.py`.
+* **Nettoyage :** Traitement via Python (Gestion des dates, calcul de l'ancienneté, création des tables de dimension).
 
 ### 3. Modélisation (Schéma Décisionnel)
 Conception d'un **Schéma en Étoile (Star Schema)** comprenant :
-* **Table de Fait :** `Ventes` (ou autre)
-* **Tables de Dimensions :** `Temps`, `Produits`, `Géographie`, etc.
+* **Table de Fait :** `Fact_EmployeeRecords` (Salaires, Performance, Statut)
+* **Tables de Dimensions :** `Dim_Employee`, `Dim_Department`, `Dim_Date`.
 
 ### 4. Dashboarding & Visualisation
-Création d'un rapport interactif Power BI permettant de répondre aux questions stratégiques de l'entreprise.
+Les fichiers `.csv` transformés dans `Data/Processed/` sont prêts à être importés dans Power BI pour la création de rapports.
 
 ---
 
 ## 📁 Structure du Repository
 ```text
-├── Data/               # Données brutes (Raw) et nettoyées (Processed)
-├── SQL/                # Scripts de création de base de données et requêtes
-├── Models/             # Fichiers Power BI (.pbix)
-├── Scripts/            # Scripts Python pour l'ETL et l'automatisation
-├── Notebooks/          # Analyses exploratoires (Jupyter Notebooks)
-├── Documentation/      # Rapport final et dictionnaire des données
-└── README.md           # Présentation du projet
+├── Data/               
+│   ├── Raw/            # hr_data_raw.csv
+│   └── Processed/      # Tables du Schéma en Étoile (Fact & Dim)
+├── SQL/                
+│   └── Scripts/        # schema_setup.sql (Structure DB)
+├── Models/             
+│   └── PowerBI/        # Fichiers .pbix (à venir)
+├── Scripts/            
+│   └── Python/         
+│       ├── data_generator.py  # Génération des données
+│       └── etl_process.py     # Processus ETL complet
+├── Documentation/      
+└── README.md           
+```
+
+## 🛠️ Comment exécuter le projet
+1. Générer les données : `python Scripts/Python/data_generator.py`
+2. Lancer l'ETL : `python Scripts/Python/etl_process.py`
+3. Les données prêtes sont dans `Data/Processed/`.
