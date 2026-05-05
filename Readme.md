@@ -67,5 +67,5 @@ Les fichiers `.csv` transformés dans `Data/Processed/` sont prêts à être imp
 2. Lancer l'ETL : `python Scripts/Python/etl_process.py`
 3. Les données prêtes sont dans `Data/Processed/`.
 
-##MVP Demo : 
-![Alternative Text](assets/image.png)
+## MVP Demo : 
+![Demo](assets/image.png)
