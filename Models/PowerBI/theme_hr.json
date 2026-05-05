@@ -1,0 +1,25 @@
+{
+    "name": "HR_Modern_Design",
+    "dataColors": ["#002147", "#00539C", "#00A4CC", "#F9A825", "#D32F2F"],
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+                "border": [{ "show": true, "color": { "solid": { "color": "#F3F3F3" } }, "radius": 12 }],
+                "dropShadow": [{ "show": true, "position": "Outer", "color": { "solid": { "color": "#000000" } }, "transparency": 92, "blur": 10 }]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [{ "color": { "solid": { "color": "#002147" } }, "fontSize": 25 }],
+                "categoryLabels": [{ "color": { "solid": { "color": "#666666" } }, "fontSize": 12 }]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [{ "fontColor": { "solid": { "color": "#002147" } }, "fontSize": 12 }],
+                "items": [{ "fontColor": { "solid": { "color": "#333333" } }, "fontSize": 10 }]
+            }
+        }
+    }
+}
