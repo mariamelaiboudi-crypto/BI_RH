@@ -68,4 +68,4 @@ Les fichiers `.csv` transformés dans `Data/Processed/` sont prêts à être imp
 3. Les données prêtes sont dans `Data/Processed/`.
 
 ## MVP Demo : 
-![Demo](assets/image.png)
+![Demo](assets/image.pdf)
