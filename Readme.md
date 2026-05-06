@@ -70,17 +70,36 @@ Les fichiers `.csv` transformés dans `Data/Processed/` sont prêts à être imp
 ## MVP Demo : 
 ![Demo](assets/image.pdf)
 
+## 📊 Dictionnaire des Mesures DAX
 
-## 📊 Indicateurs Clés de Performance (KPI)
+Les indicateurs suivants sont calculés dans la table technique `_Mesures` pour piloter les analyses du dashboard :
 
-Le projet se concentre sur l'analyse de la performance et de la rétention des employés. Voici les principaux KPI suivis :
+### 📈 Performance & Masse Salariale
+| Mesure | Description | Format |
+| :--- | :--- | :--- |
+| **Moyenne Performance** | Note moyenne des évaluations de performance. | Décimal |
+| **Salaire Moyen** | Rémunération moyenne par employé. | Devise |
+| **Masse Salariale** | Somme totale des salaires versés. | Devise |
 
-| Catégorie | KPI | Description | Formule / Source |
-| :--- | :--- | :--- | :--- |
-| **Rétention** | **Taux de Turnover** | Pourcentage d'employés ayant quitté l'entreprise. | `(Départs / Effectif Total) * 100` |
-| **Rétention** | **Taux de Rétention** | Capacité de l'entreprise à conserver ses talents. | `100 - Taux de Turnover` |
-| **Engagement** | **Satisfaction Moyenne** | Niveau de satisfaction global des employés. | `AVG(satisfaction_level)` |
-| **Performance** | **Score d'Évaluation** | Note moyenne de la dernière évaluation. | `AVG(last_evaluation)` |
-| **Opérationnel** | **Volume de Projets** | Nombre moyen de projets gérés par employé. | `AVG(number_project)` |
-| **Opérationnel** | **Heures de Travail** | Moyenne des heures travaillées par mois. | `AVG(average_monthly_hours)` |
-| **Évolution** | **Taux de Promotion** | % d'employés promus ces 5 dernières années. | `(Promus / Total) * 100` |
+### 👥 Effectifs & Rétention
+| Mesure | Description | Format |
+| :--- | :--- | :--- |
+| **Total Employees** | Nombre total d'employés dans les effectifs. | Entier |
+| **Nombre Depart** | Nombre cumulé d'employés ayant quitté l'entreprise. | Entier |
+| **Taux de Attrition** | Ratio de départ (Turnover). | Pourcentage |
+| **Nouveaux Arrivants** | Nombre de recrues sur la période. | Entier |
+
+### ⏳ Ancienneté
+| Mesure | Description | Format |
+| :--- | :--- | :--- |
+| **Anciennete Moyenne** | Temps moyen de présence (en années). | Nombre |
+| **Ancienneté Moyenne (Jours)** | Temps moyen de présence (en jours). | Entier |
+
+---
+
+## 🏗️ Architecture du Modèle (Star Schema)
+
+Le modèle de données est structuré selon un schéma en étoile pour optimiser les performances des calculs DAX :
+- **Table de Faits** : `fact_employee_records`
+- **Tables de Dimensions** : `dim_date`, `dim_department`, `dim_employee`
+- **Table de Support** : `Quick_Summary` (utilisée pour les synthèses visuelles).
