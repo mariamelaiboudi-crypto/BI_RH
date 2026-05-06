@@ -69,3 +69,18 @@ Les fichiers `.csv` transformés dans `Data/Processed/` sont prêts à être imp
 
 ## MVP Demo : 
 ![Demo](assets/image.pdf)
+
+
+## 📊 Indicateurs Clés de Performance (KPI)
+
+Le projet se concentre sur l'analyse de la performance et de la rétention des employés. Voici les principaux KPI suivis :
+
+| Catégorie | KPI | Description | Formule / Source |
+| :--- | :--- | :--- | :--- |
+| **Rétention** | **Taux de Turnover** | Pourcentage d'employés ayant quitté l'entreprise. | `(Départs / Effectif Total) * 100` |
+| **Rétention** | **Taux de Rétention** | Capacité de l'entreprise à conserver ses talents. | `100 - Taux de Turnover` |
+| **Engagement** | **Satisfaction Moyenne** | Niveau de satisfaction global des employés. | `AVG(satisfaction_level)` |
+| **Performance** | **Score d'Évaluation** | Note moyenne de la dernière évaluation. | `AVG(last_evaluation)` |
+| **Opérationnel** | **Volume de Projets** | Nombre moyen de projets gérés par employé. | `AVG(number_project)` |
+| **Opérationnel** | **Heures de Travail** | Moyenne des heures travaillées par mois. | `AVG(average_monthly_hours)` |
+| **Évolution** | **Taux de Promotion** | % d'employés promus ces 5 dernières années. | `(Promus / Total) * 100` |
