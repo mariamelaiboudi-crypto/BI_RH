@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import random
+import os  # Added for directory management
 from datetime import datetime, timedelta
 
 def generate_hr_data(num_records=500):
@@ -53,8 +54,18 @@ def generate_hr_data(num_records=500):
         })
     
     df = pd.DataFrame(data)
-    df.to_csv('Data/Raw/hr_data_raw.csv', index=False)
-    print(f"Generated {num_records} records in Data/Raw/hr_data_raw.csv")
+
+    # --- FIX STARTS HERE ---
+    output_path = 'Data/Raw/hr_data_raw.csv'
+    output_dir = os.path.dirname(output_path)
+    
+    # Create the directory if it doesn't exist
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    # --- FIX ENDS HERE ---
+
+    df.to_csv(output_path, index=False)
+    print(f"Generated {num_records} records in {output_path}")
 
 if __name__ == "__main__":
     generate_hr_data(600)

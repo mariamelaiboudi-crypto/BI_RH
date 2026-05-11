@@ -1,0 +1,20 @@
+DeptID,Department,JobRole
+1,HR,Recruiter
+2,Engineering,Software Engineer
+3,Marketing,Content Writer
+4,HR,HR Specialist
+5,Engineering,Technical Lead
+6,Sales,Account Manager
+7,Sales,Sales Representative
+8,Finance,Accountant
+9,Marketing,SEO Specialist
+10,Engineering,QA Engineer
+11,Operations,Operations Manager
+12,Sales,Sales Executive
+13,HR,HR Manager
+14,Marketing,Marketing Manager
+15,Finance,Finance Manager
+16,Finance,Financial Analyst
+17,Operations,Project Manager
+18,Operations,Coordinator
+19,Engineering,DevOps Engineer
