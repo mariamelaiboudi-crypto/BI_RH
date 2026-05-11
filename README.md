@@ -46,6 +46,12 @@ HR_BI_Project/
 | Star Schema | Architecture Data Warehouse |
 
 ---
+## 👥 Équipe de Projet
+* **ZAKARIAE EL HADDOUCHI** - *Développement ETL & Modélisation*
+* **OUSSAMA Lebyed** - *Analyse de Données & KPIs*
+* **Oualid Boutayeb** - *Visualisation & Dashboard*
+* **Meryam El Aiboudi** - *Analyse & Documentation BI*
+
 
 ## 🗂️ Architecture des Données
 
