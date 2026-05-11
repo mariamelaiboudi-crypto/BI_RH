@@ -1,0 +1,301 @@
+EmployeeID,Name,Age,Gender,Department,JobRole,Salary,HireDate,ExitDate,PerformanceRating
+EMP001,Employee_1,37,Female,Sales,Sales Rep,69628,2019-07-26,,4
+EMP002,Employee_2,23,Male,Sales,Sales Director,61140,2020-06-14,,4
+EMP003,Employee_3,50,Male,Marketing,CMO,93618,2021-02-13,,1
+EMP004,Employee_4,31,Male,HR,L&D Specialist,64110,2021-10-10,2024-05-25,2
+EMP005,Employee_5,24,Male,Operations,COO,97823,2023-02-25,,5
+EMP006,Employee_6,45,Female,IT,IT Support,97837,2020-02-27,,1
+EMP007,Employee_7,36,Non-binary,Marketing,SEO Specialist,61619,2022-04-06,,4
+EMP008,Employee_8,35,Male,Operations,Project Manager,93920,2020-12-29,,4
+EMP009,Employee_9,56,Female,Sales,Sales Director,102784,2020-09-29,2023-05-14,3
+EMP010,Employee_10,25,Female,Marketing,SEO Specialist,70010,2018-05-12,,3
+EMP011,Employee_11,58,Female,Sales,Account Manager,112433,2021-07-12,2024-10-26,3
+EMP012,Employee_12,37,Male,Legal,Paralegal,104438,2022-10-21,,3
+EMP013,Employee_13,27,Female,Marketing,Content Strategist,104530,2018-07-12,,3
+EMP014,Employee_14,46,Female,HR,L&D Specialist,75009,2023-04-02,,5
+EMP015,Employee_15,56,Female,Engineering,DevOps Engineer,109973,2021-10-25,2024-09-29,3
+EMP016,Employee_16,33,Non-binary,Engineering,QA Engineer,141542,2019-03-12,,3
+EMP017,Employee_17,32,Male,Marketing,Content Strategist,90348,2023-12-13,,4
+EMP018,Employee_18,45,Male,Legal,Legal Counsel,110306,2020-09-07,2024-05-10,5
+EMP019,Employee_19,56,Female,Sales,BDR,105189,2019-05-31,2022-07-27,5
+EMP020,Employee_20,60,Female,HR,HR Manager,77730,2020-05-17,,4
+EMP021,Employee_21,45,Male,Marketing,SEO Specialist,83711,2023-10-21,,3
+EMP022,Employee_22,57,Male,Sales,Sales Manager,70080,2020-06-21,2024-12-06,4
+EMP023,Employee_23,43,Female,Marketing,Marketing Analyst,59643,2023-10-07,,4
+EMP024,Employee_24,58,Male,Marketing,CMO,92762,2023-04-21,,3
+EMP025,Employee_25,49,Male,IT,Network Engineer,83219,2022-10-01,,5
+EMP026,Employee_26,43,Male,Engineering,DevOps Engineer,89322,2020-10-15,2024-04-15,3
+EMP027,Employee_27,37,Male,IT,Network Engineer,117310,2018-11-05,,5
+EMP028,Employee_28,56,Female,Sales,Sales Rep,109789,2018-03-02,,5
+EMP029,Employee_29,52,Male,Marketing,Content Strategist,69008,2022-07-01,,3
+EMP030,Employee_30,51,Male,Engineering,Data Engineer,112388,2022-09-29,,4
+EMP031,Employee_31,35,Male,Legal,Paralegal,77665,2018-09-07,,2
+EMP032,Employee_32,55,Female,Legal,Contract Manager,90635,2018-08-21,,2
+EMP033,Employee_33,37,Female,HR,HR Generalist,76461,2019-05-07,,4
+EMP034,Employee_34,59,Male,Engineering,ML Engineer,149085,2023-11-12,,3
+EMP035,Employee_35,30,Male,Operations,Project Manager,94019,2021-05-13,,5
+EMP036,Employee_36,58,Male,Sales,Sales Rep,61552,2018-10-28,,4
+EMP037,Employee_37,37,Female,HR,HR Manager,74217,2021-03-13,2024-09-25,4
+EMP038,Employee_38,28,Male,Engineering,ML Engineer,92601,2020-12-19,2022-01-22,4
+EMP039,Employee_39,35,Male,HR,HR Manager,72471,2020-04-13,,5
+EMP040,Employee_40,25,Female,Legal,Compliance Officer,82097,2022-10-01,,1
+EMP041,Employee_41,38,Female,Operations,Project Manager,60589,2022-12-15,,3
+EMP042,Employee_42,31,Male,Engineering,DevOps Engineer,146511,2018-05-28,,4
+EMP043,Employee_43,41,Male,HR,L&D Specialist,73897,2018-06-13,,3
+EMP044,Employee_44,57,Male,Marketing,Marketing Analyst,81632,2019-09-26,,3
+EMP045,Employee_45,23,Female,HR,Recruiter,61754,2021-09-22,,3
+EMP046,Employee_46,28,Male,Marketing,SEO Specialist,80070,2018-06-08,,3
+EMP047,Employee_47,36,Male,Legal,Compliance Officer,99219,2018-04-07,,3
+EMP048,Employee_48,39,Non-binary,Finance,Financial Analyst,88012,2023-09-18,,5
+EMP049,Employee_49,38,Male,Operations,Operations Analyst,61702,2020-12-23,2024-10-24,3
+EMP050,Employee_50,54,Female,Operations,Ops Manager,57578,2022-04-27,,3
+EMP051,Employee_51,56,Male,Engineering,Data Engineer,100825,2022-01-31,,5
+EMP052,Employee_52,29,Male,Operations,COO,97169,2021-05-15,,4
+EMP053,Employee_53,57,Female,Operations,Ops Manager,58341,2020-02-25,,5
+EMP054,Employee_54,47,Female,HR,HRBP,85909,2018-01-02,,3
+EMP055,Employee_55,35,Male,Operations,Ops Manager,83500,2023-04-23,,5
+EMP056,Employee_56,43,Male,HR,HR Generalist,56120,2020-08-20,,3
+EMP057,Employee_57,37,Male,Marketing,Content Strategist,86138,2018-10-26,,5
+EMP058,Employee_58,37,Female,Marketing,Growth Manager,64671,2018-01-23,,5
+EMP059,Employee_59,55,Male,Sales,BDR,85444,2018-07-25,,5
+EMP060,Employee_60,51,Male,Sales,BDR,98750,2023-12-16,,4
+EMP061,Employee_61,54,Female,Legal,Contract Manager,125933,2023-01-01,,4
+EMP062,Employee_62,37,Male,Legal,General Counsel,106347,2023-11-06,,3
+EMP063,Employee_63,37,Female,Legal,Legal Counsel,105614,2021-10-07,,4
+EMP064,Employee_64,31,Male,HR,Recruiter,64021,2018-09-21,,3
+EMP065,Employee_65,48,Male,Legal,General Counsel,121049,2018-03-22,,4
+EMP066,Employee_66,44,Male,IT,IT Manager,79569,2022-05-17,,5
+EMP067,Employee_67,56,Female,IT,CTO,112420,2020-06-22,,3
+EMP068,Employee_68,47,Male,Legal,Legal Counsel,91632,2023-03-30,,5
+EMP069,Employee_69,23,Female,Engineering,Data Engineer,86003,2022-10-22,2024-12-31,3
+EMP070,Employee_70,51,Male,Finance,CFO,86420,2021-10-14,,3
+EMP071,Employee_71,52,Female,IT,SysAdmin,61270,2018-08-02,,3
+EMP072,Employee_72,37,Female,Sales,Sales Rep,68065,2018-03-25,,3
+EMP073,Employee_73,35,Female,Legal,Legal Counsel,130952,2020-11-15,,3
+EMP074,Employee_74,28,Non-binary,Sales,Account Manager,92924,2018-04-16,,4
+EMP075,Employee_75,34,Non-binary,IT,IT Manager,64980,2020-09-21,2024-12-31,3
+EMP076,Employee_76,44,Female,Sales,Sales Director,89913,2022-10-21,,2
+EMP077,Employee_77,53,Female,Operations,Operations Analyst,56916,2022-11-11,,4
+EMP078,Employee_78,55,Male,Legal,Paralegal,105400,2023-06-04,,4
+EMP079,Employee_79,27,Female,Finance,Controller,83279,2023-01-21,,3
+EMP080,Employee_80,42,Male,IT,SysAdmin,71917,2023-06-21,2024-12-31,3
+EMP081,Employee_81,34,Male,Finance,Budget Analyst,70610,2020-09-15,,3
+EMP082,Employee_82,53,Female,Marketing,Growth Manager,84371,2018-03-12,2019-12-05,3
+EMP083,Employee_83,45,Female,Marketing,SEO Specialist,86015,2023-12-15,,5
+EMP084,Employee_84,39,Female,Operations,Logistics Coord,70094,2020-10-26,,4
+EMP085,Employee_85,33,Female,Operations,Operations Analyst,62552,2020-06-05,,3
+EMP086,Employee_86,40,Female,Finance,Financial Analyst,79908,2022-01-18,2022-08-14,4
+EMP087,Employee_87,25,Male,HR,HR Manager,86264,2021-04-11,,2
+EMP088,Employee_88,58,Female,Legal,Legal Counsel,107268,2023-04-07,,3
+EMP089,Employee_89,52,Non-binary,Engineering,QA Engineer,89953,2018-09-25,,2
+EMP090,Employee_90,58,Male,Engineering,Software Engineer,114824,2018-12-15,,2
+EMP091,Employee_91,36,Female,IT,CTO,110835,2023-11-11,,5
+EMP092,Employee_92,41,Non-binary,Finance,Budget Analyst,102265,2018-09-04,,4
+EMP093,Employee_93,27,Male,Marketing,Content Strategist,65292,2020-09-09,2021-08-08,3
+EMP094,Employee_94,52,Female,IT,IT Manager,79087,2018-05-14,,4
+EMP095,Employee_95,38,Female,Legal,Legal Counsel,95928,2022-10-08,2024-07-09,4
+EMP096,Employee_96,32,Male,Finance,Accountant,116945,2021-06-13,,4
+EMP097,Employee_97,41,Male,Finance,CFO,110857,2022-07-07,,4
+EMP098,Employee_98,24,Male,Legal,General Counsel,126626,2021-08-13,,1
+EMP099,Employee_99,23,Female,Marketing,CMO,105119,2021-01-08,,4
+EMP100,Employee_100,50,Female,HR,L&D Specialist,68229,2020-01-14,,3
+EMP101,Employee_101,48,Male,Legal,Legal Counsel,113687,2021-08-08,,5
+EMP102,Employee_102,40,Female,Operations,Ops Manager,93423,2022-06-29,,4
+EMP103,Employee_103,42,Male,Legal,Legal Counsel,85194,2022-07-14,,4
+EMP104,Employee_104,25,Male,Engineering,ML Engineer,99586,2023-10-25,,4
+EMP105,Employee_105,57,Male,Legal,Legal Counsel,87172,2021-03-25,,4
+EMP106,Employee_106,60,Non-binary,Sales,Sales Rep,107383,2020-09-07,,3
+EMP107,Employee_107,36,Male,Engineering,ML Engineer,89871,2023-03-06,,4
+EMP108,Employee_108,40,Non-binary,HR,L&D Specialist,83349,2021-01-24,,3
+EMP109,Employee_109,31,Male,Legal,Paralegal,120277,2020-02-20,,4
+EMP110,Employee_110,48,Male,HR,HR Generalist,72274,2023-09-11,,1
+EMP111,Employee_111,53,Female,Finance,Budget Analyst,121705,2019-09-01,,3
+EMP112,Employee_112,46,Female,Operations,COO,79841,2021-08-11,,5
+EMP113,Employee_113,48,Male,Marketing,CMO,57860,2021-07-27,,4
+EMP114,Employee_114,31,Non-binary,IT,IT Manager,92461,2018-06-01,2022-03-20,3
+EMP115,Employee_115,51,Male,Sales,BDR,56005,2019-08-14,,4
+EMP116,Employee_116,38,Male,HR,HR Generalist,72187,2022-06-17,,5
+EMP117,Employee_117,53,Female,IT,SysAdmin,117172,2018-05-28,,3
+EMP118,Employee_118,49,Female,Finance,Accountant,129116,2019-02-08,,4
+EMP119,Employee_119,41,Male,Sales,BDR,114206,2018-04-29,2019-02-17,3
+EMP120,Employee_120,55,Male,Operations,Ops Manager,77004,2020-01-08,2020-12-14,4
+EMP121,Employee_121,53,Female,IT,CTO,119823,2019-08-10,,4
+EMP122,Employee_122,51,Female,Legal,Compliance Officer,107700,2019-10-10,2022-03-15,5
+EMP123,Employee_123,51,Female,Finance,CFO,120397,2021-05-22,2024-01-14,5
+EMP124,Employee_124,44,Male,Sales,Account Manager,92670,2021-04-26,,3
+EMP125,Employee_125,25,Male,IT,SysAdmin,119678,2023-07-28,,5
+EMP126,Employee_126,36,Female,Marketing,CMO,96721,2020-02-18,,4
+EMP127,Employee_127,24,Female,HR,HR Generalist,70246,2022-12-11,2024-12-31,4
+EMP128,Employee_128,48,Male,Sales,Sales Manager,66510,2020-04-02,2023-10-08,5
+EMP129,Employee_129,39,Female,Operations,COO,104425,2019-11-05,,4
+EMP130,Employee_130,43,Female,Legal,Compliance Officer,85095,2023-04-03,,2
+EMP131,Employee_131,57,Non-binary,Marketing,Growth Manager,78971,2019-01-05,,1
+EMP132,Employee_132,38,Male,Sales,BDR,93309,2022-04-10,,5
+EMP133,Employee_133,57,Male,Sales,Account Manager,76496,2020-06-25,,4
+EMP134,Employee_134,29,Female,Legal,Compliance Officer,88320,2018-07-05,,3
+EMP135,Employee_135,56,Male,Legal,Legal Counsel,87781,2022-05-11,,4
+EMP136,Employee_136,31,Female,IT,CTO,118026,2022-08-27,,4
+EMP137,Employee_137,45,Male,IT,SysAdmin,74238,2022-12-22,,3
+EMP138,Employee_138,45,Non-binary,Operations,Operations Analyst,85682,2022-01-09,2024-01-24,3
+EMP139,Employee_139,35,Male,Sales,BDR,97054,2018-03-29,2020-08-08,3
+EMP140,Employee_140,57,Male,HR,HRBP,63576,2020-06-03,,3
+EMP141,Employee_141,31,Male,HR,HRBP,58519,2020-10-23,,2
+EMP142,Employee_142,37,Male,Engineering,Software Engineer,117437,2018-03-06,2018-12-18,2
+EMP143,Employee_143,26,Male,IT,CTO,91211,2023-01-11,,4
+EMP144,Employee_144,24,Female,Sales,BDR,102660,2023-11-06,,4
+EMP145,Employee_145,47,Non-binary,Engineering,DevOps Engineer,130872,2019-03-19,,5
+EMP146,Employee_146,31,Male,Sales,Sales Rep,59304,2019-06-01,,4
+EMP147,Employee_147,55,Non-binary,Operations,Ops Manager,69326,2023-02-02,,3
+EMP148,Employee_148,35,Female,Sales,Sales Director,83185,2023-01-24,,3
+EMP149,Employee_149,28,Male,Legal,General Counsel,110966,2022-10-15,,3
+EMP150,Employee_150,27,Male,HR,L&D Specialist,56109,2022-11-04,2024-12-31,3
+EMP151,Employee_151,57,Male,HR,HRBP,86810,2021-09-12,,3
+EMP152,Employee_152,60,Non-binary,IT,IT Support,80476,2021-12-11,2024-12-31,3
+EMP153,Employee_153,44,Female,Legal,Paralegal,118176,2019-04-16,,4
+EMP154,Employee_154,57,Non-binary,IT,CTO,61720,2020-12-31,2023-01-09,4
+EMP155,Employee_155,33,Male,Finance,Controller,122007,2019-08-10,,3
+EMP156,Employee_156,55,Male,HR,HR Generalist,64098,2022-03-21,,3
+EMP157,Employee_157,58,Female,Operations,Logistics Coord,89074,2018-12-14,,3
+EMP158,Employee_158,49,Male,Engineering,DevOps Engineer,138656,2022-12-16,,3
+EMP159,Employee_159,40,Male,Sales,Sales Manager,99447,2023-06-17,,3
+EMP160,Employee_160,25,Non-binary,Marketing,Growth Manager,55503,2020-04-17,,3
+EMP161,Employee_161,29,Male,HR,HR Manager,50506,2023-07-31,,3
+EMP162,Employee_162,54,Female,IT,CTO,96616,2021-12-21,2024-12-31,1
+EMP163,Employee_163,42,Female,Engineering,Data Engineer,131267,2022-07-15,,3
+EMP164,Employee_164,42,Male,Sales,BDR,66263,2023-02-28,,5
+EMP165,Employee_165,37,Female,Sales,BDR,83552,2022-06-29,,3
+EMP166,Employee_166,32,Male,Finance,Controller,70005,2023-09-22,,4
+EMP167,Employee_167,31,Male,Marketing,SEO Specialist,70484,2019-02-26,2020-10-02,3
+EMP168,Employee_168,53,Male,HR,HR Generalist,80405,2023-01-13,,5
+EMP169,Employee_169,26,Male,Operations,Logistics Coord,80731,2022-12-17,,4
+EMP170,Employee_170,41,Female,Engineering,QA Engineer,135521,2023-01-26,2024-12-31,4
+EMP171,Employee_171,54,Female,Sales,Sales Rep,80197,2023-03-11,,5
+EMP172,Employee_172,58,Female,Engineering,Data Engineer,99672,2021-08-09,,4
+EMP173,Employee_173,43,Male,Engineering,Data Engineer,86053,2023-08-29,,1
+EMP174,Employee_174,32,Female,Legal,General Counsel,117696,2022-03-08,,3
+EMP175,Employee_175,43,Male,Operations,COO,54319,2021-09-12,2024-12-31,3
+EMP176,Employee_176,43,Female,Finance,Budget Analyst,70341,2019-08-03,,3
+EMP177,Employee_177,27,Female,IT,Network Engineer,80288,2022-03-23,,3
+EMP178,Employee_178,49,Male,HR,HRBP,83324,2022-01-22,2024-04-13,3
+EMP179,Employee_179,53,Non-binary,Marketing,SEO Specialist,67583,2020-07-16,,3
+EMP180,Employee_180,56,Female,Finance,Financial Analyst,119730,2023-11-27,2024-12-31,5
+EMP181,Employee_181,32,Male,HR,HRBP,61851,2019-11-10,,1
+EMP182,Employee_182,40,Non-binary,Operations,Project Manager,99308,2023-01-13,,3
+EMP183,Employee_183,58,Male,Legal,Paralegal,127749,2023-03-07,,4
+EMP184,Employee_184,60,Female,IT,Network Engineer,69070,2020-10-21,2023-12-29,5
+EMP185,Employee_185,40,Female,Sales,Sales Director,60496,2019-10-19,,5
+EMP186,Employee_186,36,Male,HR,L&D Specialist,79565,2021-12-02,,3
+EMP187,Employee_187,46,Male,IT,CTO,65348,2022-03-16,,3
+EMP188,Employee_188,30,Female,Sales,Sales Manager,57510,2021-03-21,,3
+EMP189,Employee_189,22,Male,HR,L&D Specialist,55192,2018-03-19,,4
+EMP190,Employee_190,37,Female,IT,IT Support,79736,2019-05-15,2022-03-19,4
+EMP191,Employee_191,53,Male,Legal,Legal Counsel,72154,2023-10-12,,4
+EMP192,Employee_192,44,Male,Finance,CFO,80765,2022-09-03,2024-12-31,2
+EMP193,Employee_193,56,Non-binary,Operations,Operations Analyst,83248,2023-09-11,,3
+EMP194,Employee_194,45,Female,Legal,Legal Counsel,103246,2018-03-08,,2
+EMP195,Employee_195,43,Female,Marketing,Marketing Analyst,63743,2018-07-01,,3
+EMP196,Employee_196,52,Non-binary,HR,L&D Specialist,91401,2020-01-17,,2
+EMP197,Employee_197,24,Male,Legal,Legal Counsel,96144,2018-06-21,,3
+EMP198,Employee_198,24,Male,IT,CTO,109367,2020-02-22,,5
+EMP199,Employee_199,45,Male,Engineering,QA Engineer,132272,2022-06-27,,5
+EMP200,Employee_200,53,Non-binary,IT,SysAdmin,105355,2023-07-31,,4
+EMP201,Employee_201,27,Female,Finance,Financial Analyst,93220,2020-01-10,,3
+EMP202,Employee_202,41,Female,Sales,Sales Manager,84223,2022-10-12,2024-12-31,3
+EMP203,Employee_203,49,Female,Engineering,QA Engineer,110986,2018-08-23,2022-09-16,3
+EMP204,Employee_204,60,Male,HR,HR Generalist,94439,2022-11-30,2023-10-13,3
+EMP205,Employee_205,58,Male,Operations,Logistics Coord,52122,2019-09-21,,5
+EMP206,Employee_206,58,Female,Operations,Ops Manager,59023,2023-12-09,,3
+EMP207,Employee_207,23,Non-binary,Finance,Accountant,113213,2020-02-02,,3
+EMP208,Employee_208,50,Female,Sales,Sales Manager,69062,2021-03-15,,5
+EMP209,Employee_209,26,Male,Marketing,Marketing Analyst,84625,2019-12-09,,3
+EMP210,Employee_210,26,Female,Sales,Sales Manager,91044,2021-04-04,,5
+EMP211,Employee_211,29,Female,HR,HR Manager,63171,2019-07-23,,3
+EMP212,Employee_212,51,Female,Operations,COO,102668,2019-06-16,,2
+EMP213,Employee_213,52,Non-binary,Finance,CFO,99451,2022-08-10,,4
+EMP214,Employee_214,26,Non-binary,Sales,Account Manager,84489,2023-03-24,,3
+EMP215,Employee_215,25,Male,HR,Recruiter,58137,2023-10-24,2024-12-31,3
+EMP216,Employee_216,55,Non-binary,Marketing,SEO Specialist,73615,2018-11-20,,4
+EMP217,Employee_217,56,Female,Finance,Accountant,71122,2023-08-21,,4
+EMP218,Employee_218,60,Female,HR,Recruiter,72126,2018-06-18,,1
+EMP219,Employee_219,35,Male,Engineering,ML Engineer,149991,2022-09-03,,1
+EMP220,Employee_220,47,Female,Finance,Controller,84492,2023-02-01,2023-11-30,3
+EMP221,Employee_221,43,Male,IT,IT Manager,99758,2019-08-12,,4
+EMP222,Employee_222,45,Male,Operations,Ops Manager,83749,2019-03-11,,3
+EMP223,Employee_223,28,Male,Finance,CFO,68316,2021-04-03,,5
+EMP224,Employee_224,32,Non-binary,IT,Network Engineer,113312,2021-09-03,,4
+EMP225,Employee_225,54,Female,Marketing,Content Strategist,85593,2023-08-05,,3
+EMP226,Employee_226,37,Female,Sales,BDR,69099,2021-12-16,2024-01-11,3
+EMP227,Employee_227,28,Female,Legal,Compliance Officer,126482,2019-07-03,,4
+EMP228,Employee_228,25,Male,IT,SysAdmin,97373,2020-03-08,,3
+EMP229,Employee_229,57,Male,IT,CTO,78331,2019-05-02,2020-05-14,3
+EMP230,Employee_230,31,Non-binary,Operations,COO,63045,2023-09-17,,1
+EMP231,Employee_231,52,Female,Engineering,Software Engineer,143069,2023-02-15,2024-12-31,2
+EMP232,Employee_232,41,Male,Operations,Project Manager,88910,2021-10-09,,4
+EMP233,Employee_233,23,Male,Legal,Contract Manager,118281,2021-09-18,,5
+EMP234,Employee_234,38,Female,Finance,Financial Analyst,128377,2020-07-21,,4
+EMP235,Employee_235,46,Female,HR,HRBP,59684,2020-09-19,2024-12-31,2
+EMP236,Employee_236,31,Male,Engineering,Data Engineer,129127,2020-04-15,,4
+EMP237,Employee_237,55,Female,Legal,Legal Counsel,97176,2021-08-24,,3
+EMP238,Employee_238,51,Non-binary,IT,SysAdmin,119776,2023-12-24,,3
+EMP239,Employee_239,37,Female,Finance,Budget Analyst,83284,2021-05-07,,5
+EMP240,Employee_240,53,Female,Finance,Controller,85777,2023-05-20,,5
+EMP241,Employee_241,56,Male,Finance,Controller,89883,2022-06-05,,5
+EMP242,Employee_242,27,Male,HR,HR Manager,72699,2022-12-17,,4
+EMP243,Employee_243,39,Female,Marketing,Content Strategist,91832,2021-01-17,2024-12-27,4
+EMP244,Employee_244,55,Male,Marketing,Content Strategist,69789,2020-08-11,2023-06-03,3
+EMP245,Employee_245,30,Female,Legal,Legal Counsel,70679,2019-10-09,,5
+EMP246,Employee_246,40,Female,Legal,General Counsel,112096,2021-03-15,,5
+EMP247,Employee_247,24,Male,Sales,Sales Director,114849,2019-12-19,,4
+EMP248,Employee_248,33,Female,Engineering,Data Engineer,112941,2018-06-03,2022-02-05,4
+EMP249,Employee_249,56,Male,Operations,Logistics Coord,84361,2023-07-17,,2
+EMP250,Employee_250,29,Male,Legal,Compliance Officer,113343,2019-10-28,,4
+EMP251,Employee_251,40,Female,HR,HR Generalist,87210,2020-03-02,2024-03-29,5
+EMP252,Employee_252,47,Male,IT,CTO,103860,2019-01-26,2020-05-07,3
+EMP253,Employee_253,37,Male,Marketing,Marketing Analyst,84277,2020-12-29,,3
+EMP254,Employee_254,37,Female,Engineering,QA Engineer,83142,2019-04-30,,3
+EMP255,Employee_255,40,Female,Finance,Financial Analyst,89087,2020-06-23,2021-09-19,3
+EMP256,Employee_256,57,Male,Legal,Contract Manager,131712,2020-06-13,,4
+EMP257,Employee_257,45,Male,Sales,Sales Director,60118,2019-04-05,2022-10-27,5
+EMP258,Employee_258,32,Female,Marketing,CMO,76503,2023-11-02,,4
+EMP259,Employee_259,50,Female,Legal,Legal Counsel,77292,2023-02-01,2024-12-31,3
+EMP260,Employee_260,41,Male,Engineering,ML Engineer,77853,2022-06-10,,1
+EMP261,Employee_261,49,Male,Marketing,CMO,77579,2018-09-19,,2
+EMP262,Employee_262,48,Male,Sales,BDR,66795,2019-07-09,,5
+EMP263,Employee_263,46,Non-binary,IT,SysAdmin,89395,2022-03-27,,4
+EMP264,Employee_264,56,Male,HR,HR Manager,75759,2023-12-07,2024-12-31,4
+EMP265,Employee_265,56,Male,Engineering,QA Engineer,130591,2023-12-19,,3
+EMP266,Employee_266,34,Male,Legal,Compliance Officer,84790,2018-05-12,,3
+EMP267,Employee_267,28,Male,Engineering,Software Engineer,79400,2023-01-03,,4
+EMP268,Employee_268,47,Female,Engineering,Software Engineer,132535,2020-08-17,,4
+EMP269,Employee_269,40,Female,Engineering,Software Engineer,105692,2021-07-30,,4
+EMP270,Employee_270,31,Male,Operations,Project Manager,93267,2023-11-06,,3
+EMP271,Employee_271,33,Non-binary,Engineering,ML Engineer,130994,2023-07-24,2024-12-31,5
+EMP272,Employee_272,48,Male,IT,CTO,86755,2019-09-04,,3
+EMP273,Employee_273,41,Female,Legal,Paralegal,88920,2023-03-12,,4
+EMP274,Employee_274,46,Female,IT,CTO,75915,2020-11-10,2024-12-23,2
+EMP275,Employee_275,34,Male,Legal,Compliance Officer,76755,2021-01-04,,4
+EMP276,Employee_276,59,Male,Engineering,DevOps Engineer,148249,2020-06-07,,5
+EMP277,Employee_277,22,Non-binary,Operations,Logistics Coord,63881,2020-02-18,,2
+EMP278,Employee_278,35,Female,Legal,Paralegal,121987,2020-09-07,,4
+EMP279,Employee_279,44,Female,IT,IT Manager,80212,2020-12-07,,5
+EMP280,Employee_280,52,Female,Legal,Legal Counsel,111973,2020-04-12,,3
+EMP281,Employee_281,57,Male,Marketing,Content Strategist,93275,2022-09-07,,3
+EMP282,Employee_282,37,Female,Marketing,Growth Manager,87722,2021-10-14,,4
+EMP283,Employee_283,44,Male,Legal,General Counsel,92185,2019-07-28,,3
+EMP284,Employee_284,26,Male,Engineering,ML Engineer,81358,2018-01-27,,4
+EMP285,Employee_285,22,Female,Marketing,Marketing Analyst,69334,2023-09-03,,2
+EMP286,Employee_286,56,Male,Legal,General Counsel,123914,2018-02-18,2022-09-04,3
+EMP287,Employee_287,49,Female,Finance,Financial Analyst,117833,2020-01-05,2021-01-16,4
+EMP288,Employee_288,38,Female,Marketing,Content Strategist,108425,2021-12-22,,3
+EMP289,Employee_289,37,Male,Operations,Ops Manager,95694,2020-07-14,,4
+EMP290,Employee_290,46,Male,Sales,Sales Rep,79718,2023-05-04,2023-11-19,4
+EMP291,Employee_291,43,Female,Sales,BDR,92083,2019-01-26,,5
+EMP292,Employee_292,58,Female,Marketing,Content Strategist,86162,2021-01-15,2021-12-13,4
+EMP293,Employee_293,24,Female,Finance,Budget Analyst,76754,2021-07-12,2023-03-08,4
+EMP294,Employee_294,58,Male,IT,IT Support,75759,2022-05-13,,4
+EMP295,Employee_295,27,Female,IT,Network Engineer,92819,2021-11-17,2024-10-27,3
+EMP296,Employee_296,60,Female,Sales,Sales Manager,80998,2021-08-29,2023-09-07,4
+EMP297,Employee_297,57,Male,Legal,General Counsel,119207,2022-11-04,2024-12-31,4
+EMP298,Employee_298,37,Male,Sales,Sales Director,101734,2018-10-29,2020-03-07,3
+EMP299,Employee_299,28,Male,HR,L&D Specialist,55997,2018-01-22,,3
+EMP300,Employee_300,33,Male,Finance,Financial Analyst,93244,2023-01-13,,4
