@@ -17,20 +17,20 @@ Ce projet identifie les causes profondes et les segments à risque pour orienter
 ## 📁 Structure du Projet
 
 ```
-HR_BI_Project/
-├── 01_Raw_Data/
-│   ├── employees.csv          # 300 employés, 2018-2024
-│   └── hr_analytics.csv       # Métriques comportementales RH
-├── 02_PowerBI/
-│   └── HR_Dashboard.pbix      # Fichier Power BI principal
-├── 03_Screenshots/
-│   ├── page1_overview.png
-│   ├── page2_attrition.png
-│   ├── page3_departments.png
-│   ├── page4_satisfaction.png
-│   └── page5_salary.png
-├── 04_Documentation/
-│   └── data_dictionary.md
+BI_RH/
+├── Data/
+│   └── Raw/
+│       ├── employees.csv          # 300 employés, 2018-2024
+│       └── hr_analytics.csv       # Métriques comportementales RH
+├── PowerBI/
+│   ├── etl_HR.pbix                # Phase ETL (Power Query)
+│   ├── dim__HR.pbix               # Modélisation (Dimensions)
+│   └── dax__HR.pbix               # Mesures DAX & Dashboard
+├── Screenshots/
+│   └── modele_etoile.png          # Architecture du modèle
+├── Documentation/
+│   ├── data_dictionary.md
+│   └── excutiveTheme.json         # Thème JSON pour Power BI
 └── README.md
 ```
 
@@ -137,8 +137,8 @@ Retention Rate = 1 - [Attrition Rate]
 ## 🚀 Reproduire ce Projet
 
 1. Clonez ce repo
-2. Placez les CSV dans `01_Raw_Data/`
-3. Ouvrez `HR_Dashboard.pbix` avec Power BI Desktop
+2. Placez les CSV dans `Data/Raw/`
+3. Ouvrez les fichiers dans `PowerBI/` avec Power BI Desktop
 4. Rafraîchissez les données (Home → Refresh)
 
 **Prérequis :** Power BI Desktop (gratuit) — [Télécharger ici](https://powerbi.microsoft.com/desktop)
