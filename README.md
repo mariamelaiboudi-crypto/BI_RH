@@ -31,6 +31,7 @@ BI_RH/
 ├── Documentation/
 │   ├── data_dictionary.md
 │   └── excutiveTheme.json         # Thème JSON pour Power BI
+│   └── rapport-bi.json         # Thème JSON pour Power BI         
 └── README.md
 ```
 
